@@ -1,0 +1,49 @@
+{
+  "mcpServers": {
+    "algorand-insurance-ai": {
+      "tools": [
+        {
+          "name": "underwrite_micro_policy",
+          "description": "Underwrites a sub-cent Algorand parametric policy for weather or agricultural micro-risk",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "policy_type": {
+                "type": "string"
+              },
+              "insured_address": {
+                "type": "string"
+              },
+              "premium_microalgos": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "policy_type",
+              "insured_address"
+            ]
+          }
+        },
+        {
+          "name": "stream_asa_claim_payout",
+          "description": "Streams instant claim payout via Algorand atomic transaction group to insured ASA wallet",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "policy_id": {
+                "type": "string"
+              },
+              "payout_microalgos": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "policy_id",
+              "payout_microalgos"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

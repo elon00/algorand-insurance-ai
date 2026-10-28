@@ -1,0 +1,10 @@
+{
+  "project": "algorand-insurance-ai",
+  "commit_sha": "7ed63ba88f3c47fd619f8b131ade7fe267cf4a9b",
+  "timestamp": "2026-10-28T07:44:22.798898Z",
+  "score": 100,
+  "theme": "Sub-Cent Parametric Micro-Insurance & ASA Payout Protocol",
+  "blockchain": "Algorand AVM (Mainnet / Testnet)",
+  "contract": "algorand_micro_insurance.py",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: algorand-insurance-ai ($ALGOINS)\n    Chain: Algorand AVM (Mainnet / Testnet)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (algorand_micro_insurance.py) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION\n======================================================================\n"
+}
